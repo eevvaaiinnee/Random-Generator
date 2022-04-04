@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  font-family: 'BIZ UDPMincho', serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+
+.questionn {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #4a485c;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition-duration: 0.3s;
+  border: 2px solid #4a485c;
+  padding: 15px 30px;
+  background-color: #dedce2;
+  color: #4a485c;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: #4a485c;
+  color: #dedce2;
+}
+
+.buttonn {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: #4a485c;
+}
