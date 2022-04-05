@@ -2,14 +2,37 @@
   margin: 0px;
   font-family: 'BIZ UDPMincho', serif;
   box-sizing: border-box;
+  transition-duration: 0.3s;
 }
 
 body {
   background-color: #e7e7e7;
 }
 
-.questionn {
-  margin-top: 100px;
+#namee {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 30px;
+  color: #4a485c;
+}
+
+#inputt {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 300px;
+  font-size: 30px;
+}
+
+#imagee {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#questionn {
+  margin-top: 25px;
   text-align: center;
   font-size: 50px;
   color: #4a485c;
@@ -20,13 +43,12 @@ a {
 }
 
 button {
-  transition-duration: 0.3s;
   border: 2px solid #4a485c;
   padding: 15px 30px;
   background-color: #dedce2;
   color: #4a485c;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 button:hover {
